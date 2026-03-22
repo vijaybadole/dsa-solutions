@@ -8,7 +8,8 @@ const maxProfit = function (prices) {
   for (let i = 0; i < prices.length; i++) {
     if (prices[i] < minPrice) {
       minPrice = prices[i];
-    } else if (prices[i] - minPrice > maxProfit) {
+    }
+    if (prices[i] - minPrice > maxProfit) {
       maxProfit = prices[i] - minPrice;
     }
   }
