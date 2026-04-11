@@ -31,7 +31,7 @@ Each solution includes:
 - Bottom-up tabulation
 
 ### Frontend-Specific
- 
+
 - Debounce and throttle implementation
 - Deep clone and deep equality
 - Event delegation patterns
